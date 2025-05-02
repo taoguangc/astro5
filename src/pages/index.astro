@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Welcome from '../components/Welcome.astro';
-// import Svelte from '../components/Svelte.svelte';
+import Svelte from '../components/Svelte.svelte';
 import Vue from '../components/Vue.vue';
 import React from '../components/React';
 
@@ -11,5 +11,5 @@ import React from '../components/React';
 
 <Layout>
 	<Welcome />
-	<React client:visible />
+	<Svelte client:visible />
 </Layout>
